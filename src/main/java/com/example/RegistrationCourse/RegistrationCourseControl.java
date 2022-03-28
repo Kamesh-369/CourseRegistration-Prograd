@@ -52,7 +52,7 @@ public class RegistrationCourseControl {
     public String adduser(RegistrationUser reg) {
     	
     	 //System.out.println(reg.getFirstname());
-    	System.out.println(reg.getPassword());
+    	//System.out.println(reg.getPassword());
     	 repo.save(reg);
     	 System.out.println(reg.getPassword());
     	 return "welcome.jsp";   	
